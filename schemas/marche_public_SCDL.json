@@ -145,7 +145,7 @@
       {
         "name": "DUREE_MOIS",
         "title": "Durée initiale du marché",
-        "description": "Valeur minimum : 1. La durée du marché, en mois, telle que définie au moment de la publication des données. La durée initale du marché comprend la durée des tranches et reconductions potentielles. Si la durée n'est pas un nombre exact de mois, arrondir au nombre supérieur. Exemples : 9 pour 9 mois ; 1 pour 2 semaines ; 2 pour 1 mois et 3 semaines. Si une fois les données initiales du marché publiées une modification de la durée du marché intervient, elle doit être retranscrite via un objet enfant de Modifications et la propriété dureeMois initiale ne doit pas être modifiée.",
+        "description": "Valeur minimum : 1. La durée du marché, en mois, telle que définie au moment de la publication des données. La durée initale du marché comprend la durée des tranches et reconductions potentielles. Si la durée n'est pas un nombre exact de mois, arrondir au nombre supérieur. Exemples : 9 pour 9 mois ; 1 pour 2 semaines ; 2 pour 1 mois et 3 semaines. Si, une fois les données initiales du marché publiées une modification de la durée du marché intervient, elle doit être retranscrite via la propriété MODIF_DUREE_MOIS et la propriété DUREE_MOIS initiale ne doit pas être modifiée.",
         "type": "string",
         "example": "12",
         "constraints": {
