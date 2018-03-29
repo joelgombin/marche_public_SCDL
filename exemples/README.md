@@ -1,4 +1,4 @@
-# Spécification SCDL relatif aux données essentielles dans la commande publique française
+# Exemples de fichiers CSV portant sur les marchés publics
 ### D'après l'arrêté du 14 avril 2017 et la spécification d'OpenDataFrance
 
 *Ce répertoire contient un fichier exemple afin de tester le schéma JSON.*
