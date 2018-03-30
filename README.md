@@ -49,7 +49,7 @@ Lorsqu'il y a plusieurs acheteurs et plusieurs titulaires chaque combinaison de 
 
 Afin de se conformer à ce format, les modifications suivantes ont été faites par rapport à la spécification d'OpenDataFrance 1.0.
 
-- Le champ "ACHETEURS_LISTE", de type "liste dobjets", a été supprimé.
+- Le champ "ACHETEURS_LISTE", de type "liste d'objets", a été supprimé.
 - Le champ "TITULAIRES_LISTE, de type "liste d'objets", a été supprimé.
 - Le champ "MODIFICATIONS_LISTE", de type "liste d'objets" a été supprimé.
 
