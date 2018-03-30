@@ -47,13 +47,13 @@ L'arrêté précise que certains champs sont de type "objet" ou "liste d'objets"
 
 Lorsqu'il y a plusieurs acheteurs et plusieurs titulaires chaque combinaison de ligne est écrite dans le fichier CSV. Pour 3 acheteurs et 3 titulaires, les données essentielles du marché public tiendront donc sur 9 lignes. En cas de modification c'est le même principe qui prévaut, toutes les combinaisons possibles doivent être intégrées.
 
-Afin de se conformer à ce format, les modifications suivantes ont été faites par rapport à la spécification d'OpenDataFrance.
+Afin de se conformer à ce format, les modifications suivantes ont été faites par rapport à la spécification d'OpenDataFrance 1.0.
 
-- Le champ "Liste dans acheteurs", de type "liste d'objets", a été supprimé.
-- Le champ "Lieu principal d'exécution", de type "objet", a été supprimé.
-- Le champ "Titulaires", de type "liste", a été supprimé.
-- Le champ "Modifications du marché (avenants)", de type "liste d'objets" a été supprimé.
-- Le champ "Modification des titulaires", de type "liste d'objets" a été supprimé.
+- Le champ "ACHETEURS_LISTE", de type "liste dobjets", a été supprimé.
+- Le champ "TITULAIRES_LISTE, de type "liste d'objets", a été supprimé.
+- Le champ "MODIFICATIONS_LISTE", de type "liste d'objets" a été supprimé.
+
+Une proposition de nouvelle spécification (1.1), qui tient compte de ces ajustements, a été ajouté dans le dossier "referentiels".
 
 ## Améliorations potentielles
 
