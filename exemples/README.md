@@ -1,9 +1,12 @@
 # Exemples de fichiers CSV portant sur les marchés publics
 ### D'après l'arrêté du 14 avril 2017 et la spécification d'OpenDataFrance
 
-*Ce répertoire contient un fichier exemple afin de tester le schéma JSON.*
+*Ce répertoire contient des fichiers exemples en format CSV afin de tester le schéma JSON.*
 
-Ce fichier ne comporte que des informations fictives et n'a qu'une valeur de test. Il est constitué de 5 lignes. Le premier est un header comportant les noms des différents champs.
+Le premier fichier, exemple_marche_public.csv ne retourne pas d'erreurs lorsqu'il est testé.
+Le second fichier, exemple_marche_public_avec_erreurs a été modifié afin de retourner différentes erreurs.
+
+Ces fichiers ne comportent que des informations fictives et n'a qu'une valeur de test. Ils sont constitués de 5 lignes. La première est un header comportant les noms des différents champs.
 
 MARCHE\_ID,  
 ACHETEURS\_ID,  

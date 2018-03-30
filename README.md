@@ -66,7 +66,7 @@ Afin de se conformer à ce format, les modifications suivantes ont été faites 
 
 ## Contributeurs
 
-Ce schéma a été conçu à l'aide des travaux de [Joël Gombin](https://github.com/joelgombin) [\(Datactivist\)](https://datactivist.coop), de [Charles Népote](https://github.com/charlesnepote) [\(Fing\)](http://fing.org), et de [Colin Maudry](https://github.com/ColinMaudry) [\(Etalab\)](https://www.etalab.gouv.fr).
+Ce schéma a été conçu à l'aide des travaux de [Joël Gombin](https://github.com/joelgombin) [\(Datactivist\)](https://datactivist.coop), de [Charles Népote](https://github.com/charlesnepote) [\(Fing\)](http://fing.org), et de [Colin Maudry](https://github.com/ColinMaudry) [\(Etalab\)](https://github.com/etalab/format-commande-publique).
 
 
 ## Voir aussi
