@@ -60,7 +60,7 @@ Une proposition de nouvelle spécification (1.1), qui tient compte de ces ajuste
 - Continuer le travail sur les contrats de concession et les marchés de défense et de sécurité.
 - Utiliser des "integer" au lieu des "strings" lorsqu'il s'agit de champs composés exclusivement de nombres entiers.
 - Utiliser la propriété "Enum" pour contrôler les données devant se conformer à des listes fermées plutôt qu'une RegEx.
-- Utiliser une méthode alternative à celle de la librairie Goodtables pour contrôler le code source du schéma JSON. Celle-ci ne renvoyant qu'une seule erreur "Can/t load descriptor" sans préciser le type d'erreur et la ligne de code ayant généré cette erreur.
+- Utiliser une méthode alternative à celle de la librairie [Goodtables en Python]((https://github.com/frictionlessdata/goodtables-py)) pour contrôler le code source du schéma JSON. Celle-ci ne renvoyant qu'une seule erreur "Can/t load descriptor" sans préciser le type d'erreur et la ligne de code ayant généré cette erreur.
 
 
 
@@ -80,4 +80,4 @@ Ce schéma a été conçu à l'aide des travaux de [Joël Gombin](https://github
 
 **1.0** (29 mars 2018)
 
-- Première version. Ne renvoie pas d'erreurs en utilisant la fonction Validate de la librairie [Goodtables pour Python](https://github.com/frictionlessdata/goodtables-py) lorsqu'on l'applique sur le fichier csv d'exemple.
+- Première version. Fonctionne correctement avec les deux fichiers CSV d'exemple.
