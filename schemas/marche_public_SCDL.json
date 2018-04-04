@@ -5,13 +5,13 @@
   "version": "1.0",
   "created": "2018-03-01",
   "description": "Les données fixées dans l’arrêté du 14 avril 2017 doivent être publiées à compter du 1er octobre 2018 pour chaque marché public dont le montant est supérieur à 25 000 € HT et pour chaque contrat de concession. (https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034492587&dateTexte=&categorieLien=id)",
-  "homepage": "https://github.com/virgilus",
-  "uri": "https://github.com/virgilus/schema/marche_public_SCDL.json",
-  "example": "https://github.com/virgilus/exemples/exemple_marche_public.csv",
+  "homepage": "https://github.com/virgilus/marche_public_SCDL",
+  "uri": "https://github.com/virgilus/marche_public_SCDL/schema/marche_public_SCDL.json",
+  "example": "https://github.com/virgilus/marche_public_SCDL/exemples/exemple_marche_public.csv",
   "fields": [
     {
         "name": "MARCHE_ID",
-        "title": "Identification du marché public",
+        "title": "Identification du marché public",
         "description": "L'ID marché est composé de trois parties: année de notification (4 caractères) ; le numéro d'ordre interne propre à l'acheteur public (1 à 10 caractères alphanumériques),le numéro d'ordre de la modification (2 caractères, 00 si pas de modification, 01 si une modification, etc.)",        
         "type": "string",
         "example": "201872300 (2018 723 00) ou 2019000111202 (2019 00001112 02)",
