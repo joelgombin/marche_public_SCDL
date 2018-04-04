@@ -16,6 +16,7 @@ Pour ce faire, on s'appuie sur un paradigme, celui de [Frictionless Data](https:
 
 Le schéma JSON fonctionne en utilisant la vérification proposée par [Goodtables pour Python](https://github.com/frictionlessdata/goodtables-py) sur des fichiers CSV. Les fichiers CSV doivent comporter 26 champs nommés et ordonnés ainsi :
 
+```
 MARCHE\_ID,  
 ACHETEURS\_ID,  
 ACHETEURS\_NOM,  
@@ -42,6 +43,7 @@ MODIF\_TITULAIRES\_ID,
 MODIF\_TITULAIRES\_ID\_TYPE,  
 MODIF\_TITULAIRES\_DENOMINATION,  
 MODIF\_SIGNATURE\_DATE
+```
 
 L'arrêté précise que certains champs sont de type "objet" ou "liste d'objets". Ces types étant difficilement compatibles avec le format CSV, le schéma JSON présuppose des valeurs atomiques, avec une seule donnée par champ. Lorsque le marché public contient plusieurs acheteurs ou plusieurs titulaires la ligne entière est recopiée autant de fois qu'il y a d'acheteurs, et seules les données relatives aux différents acheteurs varient.
 
@@ -49,9 +51,9 @@ Lorsqu'il y a plusieurs acheteurs et plusieurs titulaires chaque combinaison de 
 
 Afin de se conformer à ce format, les modifications suivantes ont été faites par rapport à la spécification d'OpenDataFrance 1.0.
 
-- Le champ "ACHETEURS_LISTE", de type "liste d'objets", a été supprimé.
-- Le champ "TITULAIRES_LISTE, de type "liste d'objets", a été supprimé.
-- Le champ "MODIFICATIONS_LISTE", de type "liste d'objets" a été supprimé.
+- Le champ `ACHETEURS_LISTE`, de type "liste d'objets", a été supprimé.
+- Le champ `TITULAIRES_LISTE`, de type "liste d'objets", a été supprimé.
+- Le champ `MODIFICATIONS_LISTE`, de type "liste d'objets" a été supprimé.
 
 Une proposition de nouvelle spécification (1.1), qui tient compte de ces ajustements, a été ajouté dans le dossier "referentiels".
 
